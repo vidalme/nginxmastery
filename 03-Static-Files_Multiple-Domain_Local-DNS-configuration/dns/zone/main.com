@@ -1,0 +1,1 @@
+configin server ina  sec
