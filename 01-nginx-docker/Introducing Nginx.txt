@@ -1,0 +1,24 @@
+Introducing Nginx
+
+- [ x ] Getting started with Docker and Nginx
+    - [ x ] Pull image from Docker
+    - [ x ] Run Nginx container
+    - [ x ] Docker stop container
+    - [ x ] Verifying your installation
+        - [ x ] Nginx -v
+        - [ x ] Docker top web
+        - [ x ] curl localhost
+        - [ x ] Browser localhost:8080
+    - [ ] Basic Service management
+        - [ x ] service nginx start
+        - [ x ] service nginx stop
+        - [ x ] Nginx commands
+            - [ x ] -h
+            - [ x ] -v -V
+            - [ x ] -t -T
+            - [ x ] -s signal
+    - [ x ] Nginx default folder /usr/share/nginx/html
+    - [ x ] Docker-compose file - using volumes
+    - [ x ] Serving custom pages - index.html
+    - [ x ] Building a new Nginx image
+        - [ x ] DockerFile
