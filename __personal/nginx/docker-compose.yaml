@@ -1,0 +1,11 @@
+services:
+  frontend:
+    image: oinginx:latest
+
+    build: .
+
+    ports:
+      - "80:80"
+    volumes:
+      - ./data/html:/usr/share/nginx/html
+      - ./data/conf.d:/etc/nginx/conf.d
